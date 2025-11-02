@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-AcessDadesApplication<acess_dades>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.accesdades.ra2.ac1.acess_dades.AcessDadesApplication",
+            "projectName": "acess_dades",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

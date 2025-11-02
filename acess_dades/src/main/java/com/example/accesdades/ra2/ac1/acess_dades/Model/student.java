@@ -7,7 +7,8 @@ public class student {
     private String cognom;
     private int age;
     private String cicle;
-    private int any;
+    private int any_curs;
+    
 
     public student() {
     }
@@ -42,11 +43,14 @@ public class student {
     public void setCicle(String cicle) {
         this.cicle = cicle;
     }
-    public int getAny() {
-        return any;
+
+    public int getAny_curs() {
+        return any_curs;
     }
-    public void setAny(int any) {
-        this.any = any;
+
+    public void setAny_curs(int any_curs) {
+        this.any_curs = any_curs;
     }
+
 
 }

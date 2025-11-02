@@ -30,12 +30,9 @@ public class studentControler {
         return studentRepository.findAll();
     }
 
-    @PostMapping("/students/batch")
-    //Retorn un Strinf de Student 
-    public String addStudent() {
-        //Guarda el student segun el seu id 
-        int numReg = studentRepository.save();
-        return "has afegit " + numReg +" registre.";
+    @PostMapping("students/batch")
+    public String saveBatch() {
+        int total = studentRepository.save();
+        return total + " registros insertados correctamente.";
     }
-
 }

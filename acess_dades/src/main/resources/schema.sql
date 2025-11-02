@@ -6,5 +6,5 @@ CREATE TABLE students (
         cognom VARCHAR(100) DEFAULT NULL,
         age INT DEFAULT 0,
         cicle VARCHAR(100) NOT NULL,
-        any INT DEFAULT  0
+        any_curs INT DEFAULT  0
 );
